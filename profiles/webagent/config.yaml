@@ -1,0 +1,24 @@
+model:
+  default: gemini-3.5-flash-lite
+  provider: gemini
+
+providers:
+  groq:
+    name: Groq
+    base_url: https://api.groq.com/openai/v1
+    api_key: ${GROQ_API_KEY}
+  ollama:
+    name: Ollama
+    base_url: http://localhost:11434/v1
+    api_key: ollama
+
+fallback_providers:
+  - provider: groq
+    model: openai/gpt-oss-120b
+    base_url: https://api.groq.com/openai/v1
+  - provider: ollama
+    model: qwen3:4b
+    base_url: http://localhost:11434/v1
+
+_config_version: 49
+

@@ -1,0 +1,32 @@
+# Credentials & Secrets
+auth.json
+auth.lock
+.env
+
+# Runtime / Databases / Caches
+state.db*
+kanban.db*
+cache/
+audio_cache/
+image_cache/
+logs/
+sessions/
+terminal-sessions/
+runtime/
+sandboxes/
+telemetry/
+pastes/
+source-checks/
+backups/
+.curator_backups/
+installs/
+tools/
+lsp/
+workspace/
+subagents/
+
+# History & Temp
+.hermes_history
+.scratch_tip_shown
+.skills_prompt_snapshot.json
+*.lock

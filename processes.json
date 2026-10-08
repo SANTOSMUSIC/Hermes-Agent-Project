@@ -1,0 +1,29 @@
+[
+  {
+    "session_id": "proc_3c6009517c83",
+    "command": "npm run dev",
+    "pid": 12448,
+    "pid_scope": "host",
+    "host_start_time": 179145613458,
+    "systemd_unit": "",
+    "wsl_chain": false,
+    "cwd": "C:\\Users\\user\\stockify",
+    "started_at": 1791456134.5343177,
+    "task_id": "default",
+    "owner_task_id": "20261008_165846_5dcb0b",
+    "session_key": "20261008_165846_5dcb0b",
+    "watcher_platform": "",
+    "watcher_chat_id": "",
+    "watcher_user_id": "",
+    "watcher_user_name": "",
+    "watcher_thread_id": "",
+    "watcher_message_id": "",
+    "watcher_interval": 0,
+    "parent_session_id": "20261008_174126_e736b6",
+    "notify_on_complete": true,
+    "completion_output_chars": 0,
+    "watch_patterns": [],
+    "heartbeat_seconds": 0,
+    "persist_on_release": false
+  }
+]

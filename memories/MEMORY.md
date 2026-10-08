@@ -1,0 +1,3 @@
+Stockify project path: C:/Users/user/stockify. Composer at C:/laragon/bin/composer/composer.phar. PHP 8.4.24. Obsidian vault at D:/Documents/Obsidian/Hermes/Hermes Notes. Laravel serve runs on http://127.0.0.1:8000. Demo credentials: admin@stockify.com / password.
+§
+User speaks Indonesian, prefers concise direct responses, uses 'supermaster' mode, wants working artifacts not descriptions, no filler language.

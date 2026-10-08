@@ -1,0 +1,63 @@
+model:
+  default: gemini-3.5-flash-lite
+  provider: gemini
+_config_version: 49
+platform_toolsets:
+  cli:
+    - browser
+    - clarify
+    - computer_use
+    - connections
+    - cronjob
+    - delegation
+    - file
+    - image_gen
+    - memory
+    - session_search
+    - skills
+    - todo
+    - tts
+    - vision
+    - web
+known_plugin_toolsets:
+  cli:
+    - a2a
+    - spotify
+known_builtin_toolsets:
+  cli:
+    - browser
+    - clarify
+    - code_execution
+    - computer_use
+    - connections
+    - context_engine
+    - cronjob
+    - delegation
+    - discord
+    - discord_admin
+    - file
+    - homeassistant
+    - image_gen
+    - kanban
+    - memory
+    - session_search
+    - skills
+    - spotify
+    - stt
+    - terminal
+    - todo
+    - tts
+    - video
+    - video_gen
+    - vision
+    - web
+    - x_search
+    - yuanbao
+
+fallback_providers:
+  - provider: gemini
+    model: gemini-3.5-flash-lite
+  - provider: openrouter
+    model: nvidia/nemotron-3.5-lightning:free
+  - provider: openrouter
+    model: nvidia/nemotron-3-ultra-550b-a55b:free

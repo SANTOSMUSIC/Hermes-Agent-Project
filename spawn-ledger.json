@@ -1,0 +1,32 @@
+[
+  {
+    "pid": 12324,
+    "create_time": 1791452203.0151644,
+    "purpose": "cli",
+    "install": "af75d7097a90",
+    "spawner_pid": null,
+    "spawner_create": null,
+    "registered_at": 1791452206.3002827,
+    "argv": "C:\\Users\\user\\AppData\\Local\\hermes\\bin\\hermes",
+    "host": "",
+    "port": null,
+    "profile": "",
+    "hermes_home": "c:\\users\\user\\appdata\\local\\hermes",
+    "isolated": false
+  },
+  {
+    "pid": 11392,
+    "create_time": 1791453523.1338944,
+    "purpose": "cli",
+    "install": "af75d7097a90",
+    "spawner_pid": null,
+    "spawner_create": null,
+    "registered_at": 1791453526.3621423,
+    "argv": "C:\\Users\\user\\AppData\\Local\\hermes\\bin\\hermes",
+    "host": "",
+    "port": null,
+    "profile": "",
+    "hermes_home": "c:\\users\\user\\appdata\\local\\hermes",
+    "isolated": false
+  }
+]
